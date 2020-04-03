@@ -1,3 +1,17 @@
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.body {
+  font-family: "lato";
+}
+
+.is-raleway {
+  font-family: "raleway";
+}
+
 .header {
   background-color: #fff;
   padding: 15px 0;
@@ -48,13 +62,6 @@
   margin-top: 20px;
 }
 
-.clearfix::after{
-  content: "";
-  display: block;
-  clear: both;
-}
-
-
 .main__box  {
   background-color: #74cfae;
 }
@@ -84,6 +91,7 @@
 }
 
 .main__body {
+  font-family: raleway;
   font-size: 24px;
   color: #fff;
 }
@@ -104,6 +112,7 @@
 .top__box {
   text-align: center;
   font-size: 24px;
+  font-family: raleway;
 }
 
 .picture__box {
@@ -111,16 +120,23 @@
 }
 
 .picture__box__li {
+  margin-top: 80px;
   margin-left: 100px;
   float: left;
 }
 
-.picture__box__li:first-child {
-  margin-left: 0px;
+.picture__box__li:nth-child(-n+3) {
+  margin-top: 0;
 }
+
+
 
 .picture__box__li:nth-child(n+4) {
   margin-top: 80px;
+}
+
+.picture__box__li:nth-child(3n+1) {
+  margin-left: 0px;
 }
 
 .picture {
