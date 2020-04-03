@@ -8,13 +8,15 @@
   font-family: "lato";
 }
 
-.is-raleway {
+.main__body .top__box .is-raleway {
   font-family: "raleway";
 }
 
 .header {
   background-color: #fff;
   padding: 15px 0;
+  width: 100%;
+  position: fixed;
 }
 
 .fas_fa-bolt {
@@ -53,6 +55,7 @@
 .text {
   font-size: 90px;
   font-weight: 700;
+  font-family: raleway;
   color: #74cfae;
 }
 
@@ -63,19 +66,17 @@
 }
 
 .main__box  {
+  padding-top: 50px;
   background-color: #74cfae;
 }
 
 .main__box-inner {
-  padding-top: 50px;
-  padding-left: 115px;
   box-sizing: border-box;
 }
 
 .right__body  {
   float: left;
-  margin-left: 50px;
-  width: 62%;
+  width: 69%;
   text-align: center;
   padding-top: 50px;
 }
@@ -100,7 +101,6 @@
   font-size: 20px;
   color: #fff;
   margin-top: 35px;
-  width: 122%;
 }
 
 .big__box {
@@ -234,18 +234,12 @@
 }
 
 .footer {
+  padding-top: 20px;
+  padding-bottom: 25px;
   background-color: #74cfae;
 }
 
-.footer-inner {
-  padding-top: 20px;
-  padding-bottom: 25px;
-}
-
-.footer__box {
-  float: right;
-}
-
 .last__box {
+  text-align: right;
   color: white;
 }
