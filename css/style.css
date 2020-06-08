@@ -4,12 +4,10 @@
   clear: both;
 }
 
-.body {
-  font-family: "lato";
-}
+@media screen and (min-width:1200px) {}
 
-.main__body .top__box .is-raleway {
-  font-family: "raleway";
+body {
+  font-family: "Lato";
 }
 
 .header {
@@ -21,7 +19,7 @@
 }
 
 .main {
-  padding-top: 50px;
+  padding-top: 74px;
 }
 
 .fas_fa-bolt {
@@ -30,6 +28,7 @@
 
 .box {
   font: 12px;
+  font-family: Lato;
   padding: 14px 12px;
   background-color: #74cfae;
   color: #fff;
@@ -49,7 +48,6 @@
 
 .title  {
   background-color: #f2f2f2;
-  width:  100%;
   padding: 250px 0;
 }
 
@@ -81,13 +79,13 @@
 
 .right__body  {
   float: left;
-  width: 69%;
+  width: 600px;
   text-align: center;
   margin-top: 50px;
 }
 
 .iphone-body {
-  width: 30%;
+  width: 300px;
   float: left;
   text-align: center;
 }
@@ -97,7 +95,7 @@
 }
 
 .main__body {
-  font-family: raleway;
+  font-family: Raleway;
   font-size: 24px;
   color: #fff;
 }
@@ -117,7 +115,7 @@
 .top__box {
   text-align: center;
   font-size: 24px;
-  font-family: raleway;
+  font-family: Raleway;
 }
 
 .picture__box {
@@ -192,6 +190,8 @@
 
 .main__text {
   color: #fff;
+  font-family: Rsreway;
+  font-size: 24px;
   text-align: center;
 }
 
@@ -248,3 +248,7 @@
   text-align: right;
   color: #fff;
 }
+
+@media screen and (min-width:768px) and (max-width:1199px) {}
+
+@media screen and (max-width:767px) {}
