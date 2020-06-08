@@ -17,6 +17,11 @@
   padding: 15px 0;
   width: 100%;
   position: fixed;
+  z-index: 99;
+}
+
+.main {
+  padding-top: 50px;
 }
 
 .fas_fa-bolt {
@@ -78,7 +83,7 @@
   float: left;
   width: 69%;
   text-align: center;
-  padding-top: 50px;
+  margin-top: 50px;
 }
 
 .iphone-body {
@@ -241,5 +246,5 @@
 
 .last__box {
   text-align: right;
-  color: white;
+  color: #fff;
 }
